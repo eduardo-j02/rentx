@@ -5,7 +5,7 @@ import swaggerUi from "swagger-ui-express";
 import "./database";
 
 import "@shared/container";
-import { AppError } from "@errors/AppError";
+import { AppError } from "@shared/errors/AppError";
 
 import { router } from "./shared/infra/http/routes";
 import swaggerFile from "./swagger.json";
