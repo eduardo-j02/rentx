@@ -5,7 +5,7 @@ import { IRentalsRepository } from "@modules/rentals/repositories/IRentalsReposi
 
 import { Rental } from "../entities/Rental";
 
-class RentalRepository implements IRentalsRepository {
+class RentalsRepository implements IRentalsRepository {
   private repository: Repository<Rental>;
 
   constructor() {
@@ -36,4 +36,4 @@ class RentalRepository implements IRentalsRepository {
   }
 }
 
-export { RentalRepository };
+export { RentalsRepository };
